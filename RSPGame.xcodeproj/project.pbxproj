@@ -13,6 +13,7 @@
 		745AB3392AFD173800F62670 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745AB3372AFD173800F62670 /* Main.storyboard */; };
 		745AB33B2AFD173900F62670 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 745AB33A2AFD173900F62670 /* Assets.xcassets */; };
 		745AB33E2AFD173900F62670 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 745AB33C2AFD173900F62670 /* LaunchScreen.storyboard */; };
+		745AB3482AFD31A800F62670 /* Rps.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745AB3472AFD31A800F62670 /* Rps.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		745AB33A2AFD173900F62670 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		745AB33D2AFD173900F62670 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		745AB33F2AFD173900F62670 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		745AB3472AFD31A800F62670 /* Rps.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rps.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				745AB3312AFD173800F62670 /* AppDelegate.swift */,
 				745AB3332AFD173800F62670 /* SceneDelegate.swift */,
 				745AB3352AFD173800F62670 /* ViewController.swift */,
+				745AB3472AFD31A800F62670 /* Rps.swift */,
 				745AB3372AFD173800F62670 /* Main.storyboard */,
 				745AB33A2AFD173900F62670 /* Assets.xcassets */,
 				745AB33C2AFD173900F62670 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				745AB3362AFD173800F62670 /* ViewController.swift in Sources */,
+				745AB3482AFD31A800F62670 /* Rps.swift in Sources */,
 				745AB3322AFD173800F62670 /* AppDelegate.swift in Sources */,
 				745AB3342AFD173800F62670 /* SceneDelegate.swift in Sources */,
 			);
@@ -295,7 +299,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thekim12.RSPGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -313,7 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.thekim12.RSPGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
